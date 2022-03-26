@@ -57,6 +57,8 @@ def main():
     plt.imshow(wordcloud, interpolation="bilinear")
     plt.axis("off")
     plt.show()
+    
+    df.to_csv('data.csv', index=False)
 
 
 if __name__ == '__main__':
